@@ -6,10 +6,6 @@
   transition: all .3s;
 }
 
-html, body {
-  width: 100%;
-}
-
 .parellex-header {
   height: 95vh;
   background: radial-gradient(#2c3352 #001d9e);
@@ -60,14 +56,14 @@ html, body {
   color: #c3d4ee;
 }
 
-.nav-link:hover {
+.navbar a:hover {
   color: #ef98a7;
 }
 
 .first-section {
   height: 100%;
   width: 100%;
-  background-color: #392c456f;
+  background-color: #392c4592;
 }
 
 .parallax2 {
@@ -108,7 +104,6 @@ html, body {
   align-items: center;
   padding: 20px;
   display: flex;
-  transform: skew(-20deg);
 }
 
 .ho:hover {
@@ -125,15 +120,11 @@ html, body {
 }
 
 .cb2 {
-  background-color: #604f71e0;
+  opacity: .9;
   transition: all .5s;
 }
 
 .cb2:hover {
-  background-color: #604f71;
-}
-
-.cb2:hover:hover .image {
   opacity: 1;
 }
 
@@ -149,7 +140,7 @@ html, body {
 
 @media (max-width: 768px) {
   .parellex-header {
-    max-height: 45vh;
+    max-height: 55vh;
     background-position: center;
     background-size: cover;
   }
